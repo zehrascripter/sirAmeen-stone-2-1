@@ -1,0 +1,98 @@
+/* E:\giaic Q-2\milestone-3\src\app\components\Navbar.css */
+
+.navbar {
+    background-color: #FFC107; /* Yellow button */
+    border-bottom: 1px solid #ff4c4c; /* Soft gray bottom border */
+    padding: 0.5rem 1rem; /* Reduced padding to decrease height */
+    font-family: Arial, sans-serif;
+    color: #FF5733;
+    position: sticky; /* Make the navbar sticky */
+    top: 0; /* Sticks to the top */
+    z-index: 1000; /* Ensures it stays above other content */
+    height: 120px;
+  }
+
+  .search-container{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 5px;
+    width: 250px;
+    font-size: 16px;
+    color: #333;
+    background-color: #FFFFFF;
+
+  }
+ 
+  .search-icon{
+    cursor: pointer;
+    font-size: 20px;
+    color: #333;
+    margin-right: 0px;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    width: 150px; /* Adjust size of the logo */
+  }
+  
+  .nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 2rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color: #333333; /*Dark charcoal for text;*/
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-links a:hover {
+    color: #FF5733; /* Accent coral color on hover */
+  }
+  
+  /* Responsive Styles */
+  .menu-icon {
+    display: none;
+  }
+  
+  @media (max-width: 768px) {
+    .nav-links {
+      display: none;
+      position: absolute;
+      top: 60px; /* Adjusted for reduced navbar height */
+      right: 0;
+      background-color: #FFFFFF;
+      width: 200px;
+      border: 1px solid #F5F5F5;
+      border-radius: 5px;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .nav-links.open {
+      display: flex;
+    }
+  
+    .menu-icon {
+      display: block;
+      color: #007BFF; /* Modern blue for the icon */
+      cursor: pointer;
+    }
+  }
+  

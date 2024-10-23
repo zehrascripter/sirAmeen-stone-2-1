@@ -1,0 +1,78 @@
+/* E:\giaic Q-2\milestone-3\src\app\components\Footer.css */
+
+.footer {
+    background-color: #f8f9fa;
+    padding: 2rem 1rem;
+    color: #333333; /* Dark charcoal color for text */
+    border-top: 1px solid #eaeaea;
+  }
+  
+  .footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 1rem;
+  }
+  
+  @media (min-width: 640px) {
+    .footer-container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333333;
+  }
+  
+  .footer-logo {
+    border-radius: 50%;
+    background-color: #FFC107; /* Yellow background for logo */
+    padding: 0.5rem;
+  }
+  
+  .footer-title {
+    font-size: 1.5rem;
+    margin-left: 1rem;
+    font-weight: bold;
+  }
+  
+  .footer-text {
+    font-size: 0.9rem;
+    color: #666666;
+  }
+  
+  .footer-link {
+    color: #333333;
+    margin-left: 0.5rem;
+    text-decoration: none;
+  }
+  
+  .footer-link:hover {
+    color: #007BFF; /* Modern blue for hover effect */
+  }
+  
+  .social-icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .social-icon {
+    color: #666666;
+    transition: color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #007BFF; /* Modern blue for hover effect */
+  }
+  
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+  

@@ -1,0 +1,111 @@
+/* E:\giaic Q-2\milestone-3\src\app\components\HeroSection.css */
+
+.hero-section {
+    color: #333333; /* Text color */
+    padding: 4rem 1rem;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    gap: 2rem;
+  }
+  
+  @media (min-width: 768px) {
+    .container {
+      flex-direction: row;
+      padding: 4rem 2rem;
+    }
+  }
+  
+  .image-container {
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+  
+  .hero-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Slight border radius for rounded corners */
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  @media (min-width: 768px) {
+    .content {
+      text-align: left;
+      align-items: flex-start;
+      padding-left: 2rem;
+    }
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #1a1a1a; /* Darker gray for title */
+  }
+  
+  @media (min-width: 640px) {
+    .title {
+      font-size: 3rem;
+    }
+  }
+  
+  .break {
+    display: none;
+  }
+  
+  @media (min-width: 1024px) {
+    .break {
+      display: inline;
+    }
+  }
+  
+  .description {
+    margin-bottom: 2rem;
+    font-size: 1.2rem;
+    line-height: 1.6;
+  }
+  
+  .button-group {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #FFC107; /* Yellow button */
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-primary:hover {
+    background-color: #e6a700; /* Darker yellow on hover */
+  }
+  
+  .btn-secondary {
+    background-color: #f0f0f0; /* Light gray button */
+    color: #333333;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-secondary:hover {
+    background-color: #d9d9d9; /* Darker gray on hover */
+  }
+  

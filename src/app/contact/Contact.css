@@ -1,0 +1,125 @@
+.contact-section {
+    color: #4A5568; /* text-gray-600 */
+    position: relative;
+    padding: 24px 0; /* py-24 */
+  }
+  
+  .container {
+    max-width: 800px; /* You can adjust this based on your needs */
+    margin: 0 auto; /* mx-auto */
+    padding: 0 1.25rem; /* px-5 */
+  }
+  
+  .flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mb-12 {
+    margin-bottom: 3rem; /* mb-12 */
+  }
+  
+  .title {
+    font-size: 1.5rem; /* text-2xl */
+    font-weight: 500; /* font-medium */
+    margin-bottom: 1rem; /* mb-4 */
+    color: #1A202C; /* text-gray-900 */
+  }
+  
+  .description {
+    max-width: 66.666667%; /* lg:w-2/3 */
+    margin: 0 auto; /* mx-auto */
+    line-height: 1.5; /* leading-relaxed */
+  }
+  
+  .form-container {
+    width: 50%; /* lg:w-1/2 */
+    margin: 0 auto; /* mx-auto */
+  }
+  
+  .flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-field {
+    padding: 0.5rem; /* p-2 */
+    width: 50%; /* w-1/2 */
+  }
+  
+  .full-width {
+    width: 100%; /* w-full */
+  }
+  
+  .label {
+    font-size: 0.875rem; /* text-sm */
+    color: #4A5568; /* text-gray-600 */
+  }
+  
+  .input,
+  .textarea {
+    width: 100%;
+    background-color: rgba(229, 231, 235, 0.5); /* bg-gray-100 bg-opacity-50 */
+    border-radius: 0.375rem; /* rounded */
+    border: 1px solid #CBD5E0; /* border-gray-300 */
+    transition: all 0.2s ease-in-out; /* transition-colors duration-200 ease-in-out */
+    outline: none;
+    color: #4A5568; /* text-gray-700 */
+    padding: 0.5rem 0.75rem; /* py-1 px-3 */
+  }
+  
+  .input:focus,
+  .textarea:focus {
+    border-color: #D69E2E; /* focus:border-yellow-500 */
+    background-color: #FFFFFF; /* focus:bg-white */
+    box-shadow: 0 0 0 0.2rem rgba(255, 229, 102, 0.25); /* focus:ring-2 focus:ring-yellow-200 */
+  }
+  
+  .textarea {
+    height: 8rem; /* h-32 */
+    resize: none; /* resize-none */
+  }
+  
+  .submit-button {
+    display: flex;
+    margin: 0 auto; /* mx-auto */
+    background-color: #D69E2E; /* bg-yellow-500 */
+    color: #FFFFFF; /* text-white */
+    border: none;
+    padding: 0.5rem 2rem; /* py-2 px-8 */
+    border-radius: 0.375rem; /* rounded */
+    font-size: 1rem; /* text-lg */
+    cursor: pointer;
+    transition: background-color 0.3s; /* hover:bg-yellow-600 */
+  }
+  
+  .submit-button:hover {
+    background-color: #B7791F; /* hover:bg-yellow-600 */
+  }
+  
+  .contact-info {
+    padding-top: 2rem; /* pt-8 */
+    margin-top: 2rem; /* mt-8 */
+    border-top: 1px solid #E2E8F0; /* border-t border-gray-200 */
+    text-align: center;
+    margin: auto;
+  }
+  
+  .email {
+    color: #D69E2E; /* text-yellow-500 */
+  }
+  
+  .address {
+    margin: 1.25rem 0; /* leading-normal my-5 */
+  }
+  
+  .social-icons {
+    display: inline-flex;
+  }
+  
+  .icon {
+    color: #A0AEC0; /* text-gray-400 */
+    font-size: 1.5rem; /* text-2xl */
+    margin-right: 0.5rem; /* mr-2 */
+  }
